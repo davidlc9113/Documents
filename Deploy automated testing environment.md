@@ -1,5 +1,4 @@
 # Deploy automated testing environment
-@(testing)[automated testing]
 
 ## 1. Install Ruby
 
@@ -7,7 +6,7 @@ Execute command `ruby -v` in terminal to check Ruby version. If it does not work
 
 ### Ubuntu Linux / OS X / ...
 
-#### Install system dependence
+1. Install system dependence
 
   - Ubuntu Linux is required to install `libssl-dev`, `libreadline-dev` and `libffi-dev`.
     ```bash
@@ -19,7 +18,7 @@ Execute command `ruby -v` in terminal to check Ruby version. If it does not work
     $ brew install readline
     ```
 
-####  Install Ruby by [rbenv](https://github.com/sstephenson/rbenv)
+2.  Install Ruby by [rbenv](https://github.com/sstephenson/rbenv)
 
   1. clone rbenv and its plugins to `~/.rbenv`
     ```bash
@@ -54,10 +53,10 @@ Execute command `ruby -v` in terminal to check Ruby version. If it does not work
     1. [Install RubyInstaller](http://rubyinstaller.org/downloads/)
     2. [Install devkit](https://github.com/oneclick/rubyinstaller/wiki/Development-Kit#installation-instructions)
 - [chocolatey](https://chocolatey.org/packages/ruby)
-```bash
-# administrative PowerShell
-C:\> choco install ruby
-```
+    ```bash
+    # administrative PowerShell
+    C:\> choco install ruby
+    ```
 
 ## 2. Update [RubyGems](https://rubygems.org/)
 ```bash
