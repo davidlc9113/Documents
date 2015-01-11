@@ -53,6 +53,7 @@ Execute command `ruby -v` in terminal to check Ruby version. If it does not work
     1. [Install RubyInstaller](http://rubyinstaller.org/downloads/)
     2. [Install devkit](https://github.com/oneclick/rubyinstaller/wiki/Development-Kit#installation-instructions)
 - [chocolatey](https://chocolatey.org/packages/ruby)
+
     ```bash
     # administrative PowerShell
     C:\> choco install ruby
