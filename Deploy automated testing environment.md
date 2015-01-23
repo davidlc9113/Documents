@@ -66,6 +66,8 @@ gem sources --remove https://rubygems.org/
 gem sources -a https://ruby.taobao.org/
 gem update --system
 gem install rdoc
+
+$ # copy all following content to terminal
 gem rdoc --all --overwrite
 gem update
 gem install bundler
