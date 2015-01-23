@@ -22,7 +22,7 @@ Execute command `ruby -v` in terminal to check Ruby version. If it does not work
 
   1. clone rbenv and its plugins to `~/.rbenv`
     ```bash
-    $ # copy all following content to teminal
+    $ # copy all following content to terminal
     git clone git://github.com/sstephenson/rbenv.git ~/.rbenv
     git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
     git clone git://github.com/jamis/rbenv-gemset.git  ~/.rbenv/plugins/rbenv-gemset
