@@ -61,7 +61,7 @@ Execute command `ruby -v` in terminal to check Ruby version. If it does not work
 
 ## 2. Update [RubyGems](https://rubygems.org/)
 ```bash
-$ # copy all following content to teminal
+$ # copy all following content to terminal
 gem sources --remove https://rubygems.org/
 gem sources -a https://ruby.taobao.org/
 gem update --system
