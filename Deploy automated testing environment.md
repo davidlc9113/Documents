@@ -8,12 +8,13 @@ Execute command `ruby -v` in terminal to check Ruby version. If it does not work
 
 1. Install system dependence
 
-  - Ubuntu Linux is required to install `libssl-dev`, `libreadline-dev` and `libffi-dev`.
+  - Ubuntu Linux 
+    1. required to install `libssl-dev`, `libreadline-dev` and `libffi-dev`.
     ```bash
     $ sudo apt-get install libssl-dev libreadline-dev libffi-dev
     ```
 
-  1. clone rbenv and its plugins to `~/.rbenv`
+    2. clone rbenv and its plugins to `~/.rbenv`
     ```bash
     $ # copy all following content to terminal
     git clone git://github.com/sstephenson/rbenv.git ~/.rbenv
@@ -23,16 +24,26 @@ Execute command `ruby -v` in terminal to check Ruby version. If it does not work
     git clone https://github.com/rkh/rbenv-update.git ~/.rbenv/plugins/rbenv-update
     ```
 
-  2. add content to shell config (Ubuntu Linux: `~/.bashrc`, OS X: `~/.bash_profile`, zsh: `~/.zshrc`)
+    3. add content to `~/.bashrc` (zsh: `~/.zshrc`)
     ```bash
-    # rbenv
+    # ruby
     export PATH="$HOME/.rbenv/bin:$PATH"
     eval "$(rbenv init -)"
     ```
 
-  - OS X is required to install [Xcode](http://developer.apple.com/xcode/) and [Homebrew](http://brew.sh/). Then you should install `readline` by Homebrew.
+  - OS X
+    1. required to install [Xcode](http://developer.apple.com/xcode/) and [Homebrew](http://brew.sh/).
+
+    2. install by Homebrew
     ```bash
     $ brew install readline rbenv ruby-build rbenv-gemset rbenv-gem-rehash
+    ```
+
+    3. add content to `~/.bash_profile` (zsh: `~/.zshrc`)
+    ```bash
+    # ruby
+    export RBENV_ROOT=/usr/local/var/rbenv
+    if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
     ```
 
 2.  Install Ruby by [rbenv](https://github.com/sstephenson/rbenv)
