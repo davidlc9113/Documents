@@ -13,13 +13,6 @@ Execute command `ruby -v` in terminal to check Ruby version. If it does not work
     $ sudo apt-get install libssl-dev libreadline-dev libffi-dev
     ```
 
-  - OS X is required to install [Xcode](http://developer.apple.com/xcode/) and [Homebrew](http://brew.sh/). Then you should install `readline` by Homebrew.
-    ```bash
-    $ brew install readline
-    ```
-
-2.  Install Ruby by [rbenv](https://github.com/sstephenson/rbenv)
-
   1. clone rbenv and its plugins to `~/.rbenv`
     ```bash
     $ # copy all following content to terminal
@@ -37,12 +30,22 @@ Execute command `ruby -v` in terminal to check Ruby version. If it does not work
     eval "$(rbenv init -)"
     ```
 
-  3. open a new terminal to install Ruby
+  - OS X is required to install [Xcode](http://developer.apple.com/xcode/) and [Homebrew](http://brew.sh/). Then you should install `readline` by Homebrew.
     ```bash
+    $ brew install readline rbenv ruby-build rbenv-gemset rbenv-gem-rehash
+    ```
+
+2.  Install Ruby by [rbenv](https://github.com/sstephenson/rbenv)
+
+    ```bash
+    # open a new terminal
+    
     # list all available versions
     $ rbenv install --list
+    
     # install specified version
     $ rbenv install 2.2.0
+    
     # config Ruby version
     $ rbenv global 2.2.0
     ```
