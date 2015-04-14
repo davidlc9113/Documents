@@ -55,10 +55,10 @@ Execute command `ruby -v` in terminal to check Ruby version. If it does not work
     $ rbenv install --list
     
     # install specified version
-    $ rbenv install 2.2.0
+    $ rbenv install 2.1.6
     
     # config Ruby version
-    $ rbenv global 2.2.0
+    $ rbenv global 2.1.6
     ```
 
 ### Windows
@@ -79,9 +79,6 @@ $ # copy all following content to terminal
 gem sources --remove https://rubygems.org/
 gem sources -a https://ruby.taobao.org/
 gem update --system
-gem install rdoc
-
-$ # copy all following content to terminal
 gem rdoc --all --overwrite
 gem update
 gem install bundler
@@ -90,6 +87,8 @@ gem install bundler
 ## 3. [Bundle](http://bundler.io/) install
 ```bash
 # Change directory to this project in terminal
-$ cat Gemfile  # check comments and install dependence of some specified gems
+# check comments and install dependence of some specified gems
+$ cat Gemfile
+
 $ bundle install
 ```
