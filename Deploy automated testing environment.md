@@ -80,7 +80,7 @@ Execute command `ruby -v` in terminal to check Ruby version. If it does not work
 ```bash
 $ # copy all following content to terminal
 gem sources --remove https://rubygems.org/
-gem sources -a https://ruby.taobao.org/
+gem sources --add https://ruby.taobao.org/
 gem update --system
 gem rdoc --all --overwrite
 gem update
