@@ -63,15 +63,18 @@ Execute command `ruby -v` in terminal to check Ruby version. If it does not work
 
 ### Windows
 
-- Installer
-    1. [Install RubyInstaller](http://rubyinstaller.org/downloads/)
-    2. [Install devkit](https://github.com/oneclick/rubyinstaller/wiki/Development-Kit#installation-instructions)
-- [chocolatey](https://chocolatey.org/packages/ruby)
+1. Install Ruby
 
-    ```bash
-    # administrative PowerShell
-    C:\> choco install ruby
-    ```
+    - [RubyInstaller](http://rubyinstaller.org/downloads/)
+
+    - [chocolatey](https://chocolatey.org/packages/ruby)
+
+        ```bash
+        # administrative PowerShell
+        C:\> choco install ruby
+        ```
+
+2. [Install Development Kit](https://github.com/oneclick/rubyinstaller/wiki/Development-Kit#installation-instructions)
 
 ## 2. Update [RubyGems](https://rubygems.org/)
 ```bash
@@ -87,8 +90,10 @@ gem install bundler
 ## 3. [Bundle](http://bundler.io/) install
 ```bash
 # Change directory to this project in terminal
+
 # check comments and install dependence of some specified gems
 $ cat Gemfile
 
+# install all required gems
 $ bundle install
 ```
