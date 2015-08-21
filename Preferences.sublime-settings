@@ -1,11 +1,11 @@
 {
-  "font_face": "Source Code Pro Light",
-  "font_size": 16,
-  "translate_tabs_to_spaces": true,
-  "tab_size": 2,
-  "default_line_ending": "unix",
-  "trim_trailing_white_space_on_save": true,
-  "ensure_newline_at_eof_on_save": true,
-  "show_full_path": true,
-  "find_selected_text": true
+	"default_line_ending": "unix",
+	"ensure_newline_at_eof_on_save": true,
+	"find_selected_text": true,
+	"font_face": "Source Code Pro Light",
+	"font_size": 16,
+	"show_full_path": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }
